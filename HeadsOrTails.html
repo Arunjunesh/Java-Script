@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> heads or tails</title>
+  </head>
+
+  <body>
+    <button onclick="
+
+    let value = Math.random();
+
+
+
+    if( value < 0.5) {
+      result = 'heads';
+    }
+    else {
+      result = 'tails;'
+    }
+      "> coin </button>
+
+
+<p>
+
+  <button onclick="
+
+    if( guess === result)
+    {
+      console.log('you won');
+      alert('You Guessed Right');
+    }
+    else
+    {
+      console.log('you lose');
+      alert('You Lose');
+    }
+    "> Heads </button>
+
+  <button onclick="
+
+    if( guess != result)
+    {
+      console.log('you won');
+      alert('You Guessed Right');
+    }
+    else
+    {
+      console.log('you lose');
+      alert('You Lose');
+
+    }
+  "> Tails </button>
+</p>
+
+    <script>
+
+  let result;
+
+  const guess = 'heads';;
+
+
+
+    </script>
+  </body>
+</html>
